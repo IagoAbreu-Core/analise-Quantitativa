@@ -10,6 +10,8 @@ Este projeto utiliza a linguagem **R** para coletar, tratar e visualizar a perfo
 
 ## 📊 Insights e Análise de Mercado
 
+![gráfico_pdf](graficos/Rplot.pdf)
+
 ### 1. Apple (AAPL) e Amazon (AMZN): Consistência de Longo Prazo
 * **Comportamento:** Ambas as empresas demonstraram excelente resiliência ao longo do ano. Começaram a descolar positivamente a partir de abril.
 * **Resultado:** Encerraram o período analisado com retornos acumulados expressivos (Amazon próxima de +20% e Apple de +15%). São ativos que mostram menor volatilidade diária, ideais para estratégias de **Longo Prazo (Buy & Hold)**.
@@ -21,5 +23,5 @@ Este projeto utiliza a linguagem **R** para coletar, tratar e visualizar a perfo
 
 ## 🛠️ Como Executar o Script
 1. Clone o repositório.
-2. Abra o arquivo `scripts/analise_retornos.R` no RStudio.
+2. Abra o arquivo `script's/analise_retornos.R` no RStudio.
 3. Instale as dependências necessárias e execute o código.
