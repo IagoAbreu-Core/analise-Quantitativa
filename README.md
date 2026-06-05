@@ -31,5 +31,5 @@ O  painel interativo permite ao usuário final:
 
 ## 🛠️ Como Executar o Script
 1. Clone o repositório.
-2. Abra o arquivo `script's/analise_retornos.R` no RStudio.
+2. Abra o arquivo `scripts/analise_retornos.R` no RStudio.
 3. Instale as dependências necessárias e execute o código.
