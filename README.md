@@ -1,16 +1,24 @@
 # Análise de Performance e Volatilidade: Big Techs (2026)
 
-Este projeto utiliza a linguagem **R** para coletar, tratar e visualizar a performance acumulada das ações da Apple (AAPL), Amazon (AMZN) e Tesla (TSLA) durante o ano de 2026. O objetivo é demonstrar a diferença entre o preço nominal das ações e o seu real retorno ao investidor, além de aplicar indicadores de tendência (Médias Móveis).
+Este projeto utiliza a linguagem **R** para coletar, tratar e visualizar a performance acumulada das ações, para exemplo usei Apple (AAPL), Amazon (AMZN) e Tesla (TSLA). O objetivo é demonstrar a diferença entre o preço nominal das ações e o seu real retorno ao investidor, além de aplicar indicadores de tendência (Médias Móveis).
 
 ## 🚀 Tecnologias Utilizadas
 * **R** (v4.x)
 * `tidyquant` para coleta de dados do Yahoo Finance.
 * `tidyverse` (ggplot2, dplyr) para manipulação e gráficos.
 * `patchwork` e `scales` para customização visual e alinhamento dos painéis.
+* `shiny` para um painel interativo dinâmico.
+
+## 🖥️ Interface Interativa (Shiny Web App)
+O  painel interativo permite ao usuário final:
+* **Customização de Ativos:** Digitar qualquer ticker de ação (ex: AAPL, TSLA) para carregar os dados em tempo real.
+* **Filtro Temporal:** Escolher a data de início da análise através de um calendário dinâmico.
+* **Alternância de Gráficos:** Alternar visualizações entre Preço Nominal, Retorno Acumulado ou ambos simultaneamente de forma responsiva.
+* **Exportação de Relatório:** Botão para download automático do gráfico gerado em alta resolução (.png).
 
 ## 📊 Insights e Análise de Mercado
 
-![gráfico_pdf](graficos/Rplot.pdf)
+![imagen_png](imagens/Captura_de_tela.png)
 
 ### 1. Apple (AAPL) e Amazon (AMZN): Consistência de Longo Prazo
 * **Comportamento:** Ambas as empresas demonstraram excelente resiliência ao longo do ano. Começaram a descolar positivamente a partir de abril.
